@@ -1,0 +1,40 @@
+1/28: Began project. Created terrainGen.c
+1/30: Create queue and began implementation in terrainGen
+2/1: Complete terrainGen for assignment1.01
+2/3: Added gate input to terrainGen
+2/4: create map.h and map.c
+2/5: create main.c and move main method from terrainGen. Created world.h and world.c
+2/6: fix generateTerrain to get rid of edge gates
+2/9: Fix invalid input response
+2/11: Created pc.c and pc.h and randomly place pc on map
+2/15: Created heap.c and heap.h and began on shortest path code in terrainGen
+2/16: finished shortest path implementations for both hiker and rival
+2/18: converted hiker and rival into types in trainer.h and trainer.c
+2/23: Combined trainer files and pc files into character and implemented all character initialization and movement
+2/24: Continued to work on trainer and pc movements
+2/27: Implemented priority queue and automatic movements
+3/1: Fixed character movements to include edge cases and standing still if nowhere to go
+3/2: Fixed last movement bugs
+3/3: Added cursers to terrainPrint and color
+3/22: Added pc move functionality and trainers list
+3/23: Changed rival and hiker to move differently after defeated.
+3/25: Began C++ conversion
+3/26: Finish C++ conversion and debugging
+3/27: Began implementing moving between maps
+3/30: Finished logic of moving between maps
+3/31: Added fly command
+4/1: Began implementing classes for csvs
+4/3: Started on reading in csvs
+4/5: finished reading in and started on outputting data
+4/6: Finished all csv code
+4/9: Pokemon constructor that generates random pokemon and fills all fields
+4/10: Added player screen to choose pokemon and added pokemon to trainers
+4/11: Added pokemon spawning and pokemon battle place holder
+4/14: Added bag command and potion and revive
+4/15: Started wild pokemon battles
+4/20: Finished pokemon battles
+4/21: Did trainer battles and pokemarts/pokemon centers
+4/22: Added different catch rate
+4/23: Added ability to switch out pokemon in party and to transfer pokemon
+4/24: Debugged catching pokemon and switching/transfering them
+4/27: Added XP for all pokemon and the ability to level up your pokemon. Also added ability to learn new moves in pokemon center
