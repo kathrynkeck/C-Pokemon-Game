@@ -1,0 +1,31 @@
+User input sources:
+- https://www.w3schools.com/c/c_user_input.php
+- https://www.geeksforgeeks.org/c/fgets-function-in-c/
+
+Curses source:
+https://hackaday.com/2025/06/17/a-gentle-introduction-to-ncurses-for-the-terminally-impatient/
+
+Pokemon experience:
+https://bulbapedia.bulbagarden.net/wiki/Experience
+
+For my create your own assignment:
+I added a catch rate taken from https://bulbapedia.bulbagarden.net/wiki/Catch_rate in the generation
+II and beyond section. To do this I had to use the pokemon species data file that contains the
+capture rate for each pokemon_id. I also, had it only use pokemon whose id was less than or equal
+to 898 because the bigger ones don't have a capture rate, and I also just don't like them very much.
+I also added that a user can have up to 12 pokemon total. They can switch out these pokemon by entering
+a pokemon center. There they can add up to 6 pokemon to their party. They can also transfer pokemon.
+This allows the user to get rid of pokemon so they can catch more after they have hit the 12 pokemon.
+Once a pokemon is transfered, it is gone, and they will not be able to get it back.
+
+I also added XP for pokemon. Each pokemon starts with the experience it needs to have for its level
+based on experience.csv. Your pokemon then earn experience points every time they knock out a pokemon
+whether in a wild pokemon battle or a trainer battle. This experience is calculated based on the flat
+formula for generations I - IV as described in https://bulbapedia.bulbagarden.net/wiki/Experience. This
+experience is then split between each of the pokemon in the party that are not kncoked out. When
+a pokemon levels up, their stats all level up with them. When the PC goes to the pokemon center, they
+also have a choice see new moves for their pokemon. This page asks them to pick from one of their pokemon.
+Then if they have any moves that are unlocked at the level they are on, the pokemon center will display
+them. If the player wants, they can choose to learn one of the new moves. In order to do this they will be
+asked to forget one of their current two moves. This allows pokemon to level up and unlock better moves
+as they do so.
